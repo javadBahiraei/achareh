@@ -1,0 +1,56 @@
+* {
+  scrollbar-color: rgba(0, 0, 0, 0.2) hsla(0, 0%, 100%, 0.459);
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+  background: hsla(0, 0%, 100%, 0.459);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-corner {
+  background: hsla(0, 0%, 100%, 0.459);
+}
+
+body,
+main {
+  background-color: #f5f5f5;
+  min-height: 100vh !important;
+}
+
+body {
+  font-size: 13px !important;
+  font-weight: normal;
+}
+
+* {
+  scrollbar-color: rgba(0, 0, 0, 0.2) hsla(0, 0%, 100%, 0.459);
+  scrollbar-width: thin;
+  -webkit-print-color-adjust: exact;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.form-control{
+  direction: rtl;
+
+}
+input::placeholder {
+  color: #e8e8e8 !important;
+  opacity: 1;
+  font-size: 12px;
+}
+.container {
+  padding-bottom: 70px;
+  & > .row {
+    border-radius: 0.25rem;
+    margin-top: 2rem;
+    
+  }
+}

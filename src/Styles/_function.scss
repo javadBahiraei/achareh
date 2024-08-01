@@ -1,0 +1,6 @@
+@for $i from 1 to 400 {
+    .font-#{$i} {
+      font-size: #{$i}px !important;
+    }
+  }
+    

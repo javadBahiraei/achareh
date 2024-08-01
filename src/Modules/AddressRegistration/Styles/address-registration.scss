@@ -1,0 +1,22 @@
+.head-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100vw;
+  height: 36px;
+
+  box-shadow: -3px 0px 2px 3px #e8e8e8;
+}
+
+.footer-register {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #FFF;
+  height: 55px;
+  z-index: 1000;
+  box-shadow: 23px 20px 52px 3px #e8e8e8;
+  padding: 0 20px;
+}
